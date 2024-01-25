@@ -1,3 +1,4 @@
+import { MenuItem } from 'primereact/menuitem'
 import { ReactNode } from 'react'
 
 export interface ITabItem {

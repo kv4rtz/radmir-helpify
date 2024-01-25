@@ -51,6 +51,7 @@ const Header = () => {
           </div>
           <nav>
             <TabMenu
+              // @ts-ignore
               model={tabItems}
               activeIndex={activeIndex}
               pt={{
