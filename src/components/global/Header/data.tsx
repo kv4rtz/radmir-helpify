@@ -31,7 +31,7 @@ export const navItems = (itemRenderer: TItemRenderer) => [
   },
   {
     label: 'Памятка',
-    href: '/law',
+    href: '/minder',
     icon: 'pi pi-table',
     template: (item: ITabItem) => itemRenderer(item, 2),
   },
