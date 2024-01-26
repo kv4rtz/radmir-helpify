@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="flex-shrink-0 py-3 opacity-70 border-t-2 border-solid border-transparent border-t-bg-gray">
       <Container>
-        <div className="flex justify-between">
+        <div className="flex justify-between text-sm">
           <time>Актуально: {date}</time>
           <div>Created by kvarcev & caxapok</div>
         </div>
