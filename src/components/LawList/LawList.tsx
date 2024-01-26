@@ -1,12 +1,20 @@
 import Link from 'next/link'
-import { laws } from './data'
+import { LawLink } from './data'
 
-const LawList = () => {
+interface LawListProps {
+  law: LawLink[]
+}
+
+const LawList = ({ law }: LawListProps) => {
   return (
-    <ul>
-      {laws.map((el, idx) => (
+    <ul className="mt-3 flex flex-col gap-1">
+      {law.map((el, idx) => (
         <li key={idx}>
-          <Link target="_blank" href={el.href}>
+          <Link
+            className="text-bg-green opacity-70 inline-block rounded"
+            target="_blank"
+            href={el.href}
+          >
             {el.label}
           </Link>
         </li>
