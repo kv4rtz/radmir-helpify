@@ -7,7 +7,6 @@ import { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { ITabItem, navItems } from './data'
 import { Badge } from 'primereact/badge'
-import { Rating } from 'primereact/rating'
 
 const Header = () => {
   const [activeIndex, setActiveIndex] = useState(0)
@@ -40,7 +39,9 @@ const Header = () => {
                 alt="radmir logo радмир логотип"
                 className="w-[50px] h-[50px]"
               />
-              <h1 className="font-semibold italic text-2xl">Radmir Helpify</h1>
+              <h1 className="font-semibold italic text-2xl">
+                Makar Akimov dayn
+              </h1>
               <Badge value="Beta"></Badge>
             </div>
             <div className="text-sm opacity-60">
