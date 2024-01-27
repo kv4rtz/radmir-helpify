@@ -37,10 +37,12 @@ const HomePage = () => {
 
   useEffect(() => {
     if (search.length > 0) {
-      searchLaws.uk ? setUkLaw(filter(uk, search)) : setUkLaw([])
-      searchLaws.ak ? setAkLaw(filter(ak, search)) : setAkLaw([])
-      searchLaws.upk ? setUpkLaw(filter(upk, search)) : setUpkLaw([])
-      searchLaws.ek ? setEkLaw(filter(ek, search)) : setEkLaw([])
+      setTimeout(() => {
+        searchLaws.uk ? setUkLaw(filter(uk, search)) : setUkLaw([])
+        searchLaws.ak ? setAkLaw(filter(ak, search)) : setAkLaw([])
+        searchLaws.upk ? setUpkLaw(filter(upk, search)) : setUpkLaw([])
+        searchLaws.ek ? setEkLaw(filter(ek, search)) : setEkLaw([])
+      }, 500)
     } else {
       setUkLaw([])
       setAkLaw([])
