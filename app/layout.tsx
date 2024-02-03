@@ -5,9 +5,16 @@ import 'primereact/resources/themes/lara-dark-green/theme.css'
 import 'primeicons/primeicons.css'
 import Header from '@/src/components/global/Header/Header'
 import Footer from '@/src/components/global/Footer/Footer'
+import { Metadata } from 'next'
 
 interface LayoutProps {
   children: ReactNode
+}
+
+export const metadata: Metadata = {
+  title: 'Radmir Helpify',
+  manifest: './manifest.webmanifest',
+  themeColor: '#121212',
 }
 
 export default function RootLayout({ children }: LayoutProps) {
@@ -34,7 +41,6 @@ export default function RootLayout({ children }: LayoutProps) {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
       </head>
       <body className="flex flex-col min-h-screen">
         <Providres>
