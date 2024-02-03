@@ -40,7 +40,7 @@ const Header = () => {
                 className="w-[50px] h-[50px]"
               />
               <h1 className="font-semibold italic text-2xl">Radmir Helpify</h1>
-              <Badge value="Beta"></Badge>
+              <Badge value="Beta 2.0"></Badge>
             </div>
             <div className="text-sm opacity-60">
               <ul>
