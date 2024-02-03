@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     'Памятка Radmir, законодательство, поиск по законодательству Радмир РП',
   keywords:
-    'radmir,roleplay,radmirrp,helpify,законка,законодательство,поиск,rp,радмир,законодательство радмир, радмир рп, radmir rp законка, radmir законка, радмир законка, радмир законодательство,памятка радмир, радмир гта 5, гта 5, законка гта 5,',
+    'radmir,roleplay,radmirrp,helpify,законка,законодательство,поиск,rp,радмир,законодательство радмир, радмир рп, radmir rp законка, radmir законка, радмир законка, радмир законодательство,памятка радмир, радмир гта 5, гта 5, законка гта 5,radmir helpify',
   creator: 'kvarcev',
   authors: { name: 'kvarcev', url: 'https://vk.com/kv4rtz' },
   robots: 'index, follow',
